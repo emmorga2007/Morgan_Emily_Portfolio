@@ -5,11 +5,19 @@
 
 ## Introduction to Project
 What?<br>
-Creating a functional, responsive, and dynamic website for my Portfolio<br>
+Creating a functional, responsive, and dynamic website for my Portfolion to dsplay my work and accomplishments to future employers or clients.<br>
 Why?<br>
-For my term 3 final integrated project for London Ontario's fanshawe Interactive Media Design Program<br>
+For my term 3 final integrated project for London Ontario's fanshawe Interactive Media Design Program.<br>
 
-## Requirements
+## Installation
+
+TODO: Describe the installation process
+
+## History
+
+TODO: Write history
+
+## Usage
 Use a modern Browser such as [Firefox](https://www.mozilla.org/en-CA/firefox/new/) or [Chrome](https://www.google.ca/chrome/?brand=CHBD&gclsrc=aw.ds&&gclid=CjwKCAjw29vsBRAuEiwA9s-0B6zIdw5_qV4ETvbcN4042nlkfk9YggWT_DI1vM4UH4vWB2I0pdWUdhoCBWoQAvD_BwE). Avoid internet explorer.
 
 
@@ -20,12 +28,21 @@ Use a modern Browser such as [Firefox](https://www.mozilla.org/en-CA/firefox/new
 
    <li>CSS</li>
 
+   <li>SASS</li>
+   
    <li>JS</li>
+   
+   <li>PHP</li>
 
 </ul>
 
 ## License
 MIT
+Copyright 2020
 
 ## Creator
 Emily Morgan
+
+
+
+
