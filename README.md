@@ -5,12 +5,20 @@
 
 ## Introduction to Project
 What?<br>
-Creating a functional, responsive, and dynamic website for my Portfolio<br>
+Creating a functional, responsive, and dynamic website for my Portfolion to dsplay my work and accomplishments to future employers or clients.<br>
 Why?<br>
-For my term 3 final integrated project for London Ontario's fanshawe Interactive Media Design Program<br>
+For my term 3 final integrated project for London Ontario's fanshawe Interactive Media Design Program.<br>
 
-## Requirements
-Use a modern Browser such as [Firefox](https://www.mozilla.org/en-CA/firefox/new/) or [Chrome](https://www.google.ca/chrome/?brand=CHBD&gclsrc=aw.ds&&gclid=CjwKCAjw29vsBRAuEiwA9s-0B6zIdw5_qV4ETvbcN4042nlkfk9YggWT_DI1vM4UH4vWB2I0pdWUdhoCBWoQAvD_BwE). Avoid internet explorer. You will need git installed locally as well as a good code editor such as [Sublime](https://www.sublimetext.com). Subfolders are included.
+## Installation
+
+TODO: Describe the installation process
+
+## History
+
+TODO: Write history
+
+## Usage
+Use a modern Browser such as [Firefox](https://www.mozilla.org/en-CA/firefox/new/) or [Chrome](https://www.google.ca/chrome/?brand=CHBD&gclsrc=aw.ds&&gclid=CjwKCAjw29vsBRAuEiwA9s-0B6zIdw5_qV4ETvbcN4042nlkfk9YggWT_DI1vM4UH4vWB2I0pdWUdhoCBWoQAvD_BwE). Avoid internet explorer.
 
 ## API Navigation
 
@@ -30,7 +38,11 @@ add " /includes/read.php?id=1 " to the end of the url. The 1 in "?id=1" can be a
 
    <li>CSS</li>
 
+   <li>SASS</li>
+   
    <li>JS</li>
+   
+   <li>PHP</li>
 
    <li>SASS</li>
 
@@ -38,6 +50,7 @@ add " /includes/read.php?id=1 " to the end of the url. The 1 in "?id=1" can be a
 
 ## License
 MIT
+Copyright 2020
 
 ## Designer and Developer
 Emily Morgan<br>
