@@ -1,11 +1,16 @@
 @charset "UTF-8";
 
+/*import fonts file*/
+@import url(/fonts.css);
+
+
 /*Global open*/
 .hidden{
 	display: none;
 }
 
-body{background-color:#333;color:#fff;
+/*Trevors code below for example*/
+/*body{background-color:#333;color:#fff;
 	font-size:16px;
 	font-family:"arial","helvetica",sans-serif}
 main{padding:20px}main h2{

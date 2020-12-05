@@ -13,7 +13,6 @@
     header('Access-Control-Allow-Origin:*');
     header('Content-Type: application/json; charset=UTF-8');
     $results = [];
-    
     $visitor_name = '';
     $visitor_email = '';
     $visitor_message = '';
