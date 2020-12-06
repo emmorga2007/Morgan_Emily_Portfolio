@@ -1,13 +1,168 @@
 @charset "UTF-8";
 
 /*import fonts file*/
-@import url(/fonts.css);
+@import url(./fonts.css);
 
+/*CSS Variables*/
+@import url(./partials/_variable.css);
+@import url(./partials/_global.css);
 
 /*Global open*/
 .hidden{
 	display: none;
 }
+
+/*Start navigation*/
+
+.header_area .main-menu .navbar{
+	padding-right: 10rem;
+}
+
+.header_area .main-menu .nav-link{
+	font: normal 500 17px/2px var(--roboto);
+	padding: 2rem;
+	color: var(--primary-color2);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/*End navigation*/
+
+/*Hero img open*/
+ .site-main .site-banner{
+	background: url(../images/banner/home-banner.png) no-repeat 0% 0%;
+	background-size: 90%;
+ }
+
+ .site-main .site-banner h3{
+	padding-top: 25%;
+	padding-left: 10%;
+	font-weight: 500;
+	font-size: 3rem;
+ }
+
+ .site-main .site-banner h1{
+	 font-size: 3.5rem;
+	 padding-left: 10%;
+	 color: var(--gradient-color);
+ }
+
+ .site-main .site-banner h4{
+	 font-size: 2rem;
+	 padding-left: 10%;
+ }
+
+/*Hero img close*/
+
+
+/* Services Area */ 
+
+.site-main .services-area{
+	padding: 15rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.sevices-img img{
+	width: 15rem;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+	transition: box-shadow .7s ease;
+	height: 25rem;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+/* End Services Area */ 
+
+/*Professional Journey Open*/
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+
+/*Professional Journey close */
+
+
+
+
+
+
+/*Contact form bkg open*/
+
+
+/*Contact form bkg close*/
+
+
+
+
+/* Footer Open */
+.footer{
+	background-color: var(--primary-color2);
+}
+
+.footer .copyright{
+	padding-top: 5rem;
+	padding-left: 5rem;
+	margin-bottom: -5rem;
+}
+
+
+
+.footer span{
+	display: block;
+    font: normal bold 20px/ 15px var(--roboto);
+	letter-spacing: 9px;
+	color: grey;
+	padding-top: 2rem;
+	
+}
+
+
+.footer .footer-links h2 ,p{
+	color:grey;
+}
+
+
+/* Footer Close */
+
+.contact-sec .contactcon {
+	background: url(../images/form-bkg.png) no-repeat 0% 0%;
+	background-size: 50%;
+ }
 
 /*Trevors code below for example*/
 /*body{background-color:#333;color:#fff;
