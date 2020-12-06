@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="" alt="logo" width="300">
+  <img src="./images/full_logo.png" alt="logo" width="300">
   <h2>Emil Morgan Portfolio Website</h2>
 </div>
 
@@ -20,7 +20,7 @@ How to test the API endpoints<br>
 add " /includes/read.php " to the end of the url.<br>
 
 2) retrieve a singular porfolio item:<br>
-add " /includes/read.php?id=1 " to the end of the url. The 1 in "?id=1" can be any valid integer. <br>
+add " /includes/read.php?id=1 " to the end of the url. The 1 in "?id=1" can be any valid integer. Currently the id range is 1-6. <br>
 
 
 ### Built With
@@ -34,6 +34,9 @@ add " /includes/read.php?id=1 " to the end of the url. The 1 in "?id=1" can be a
 
    <li>SASS</li>
 
+   <li>Bootstrap</li>
+
+
 </ul>
 
 ## License
@@ -43,6 +46,6 @@ MIT
 Emily Morgan<br>
 
 ## Special Mentions - Peer Tutors
-Natasha Adler <br>
+Natasha Adler<br>
 Nate Grift<br>
 
