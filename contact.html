@@ -3,24 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Emily Morgan's Portfolio</title>
 
+    <!-- Bootstrap css file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- my custom css file-->
     <link rel="stylesheet" href="css/master.css">
 </head>
 <body>
-     
-    <nav class="mainNav"><!--/////////////////// main nav open -->
-        <h1 class="hidden">Main Navigation</h1>
-        <div><img src="" alt=""></div> <!-- ***********Logo img-->
-	      <ul class="navoptions">
-	        <li><a href="index.html">Home</a></li>
-	        <li><a href="gallery.html">Gallery</a></li>
-	        <li><a href="contact.html">Contact</a></li>
-	      </ul>
-        </nav><!--////////////////////////// main nav close -->
+
+        <!--Header area open-->
+        <div class="header_area">
+            <div class="main-menu">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+    
+                    <a class="navbar-brand" href="#"> <img src="images/logo.png" alt="Emily Morgan Interactive Media Designer Logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="mr-auto"></div>
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                          </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <!--Header area end-->
 
 
-    <section id="contactcon"><!-- ////////////contact info open -->
+
+    <section class="contact-sec"id="contactcon"><!-- ////////////contact info open -->
 
         <div class="contactcon"><!-- email contact form open-->
             <div class="contactcopy"><!--form message open -->
@@ -52,18 +76,33 @@
         </div><!-- email contact form close-->
     </section><!-- contact info close -->
 
-    <footer><!---  ///////////////////////footer open///////////////////// -->
-        <h2 class="hidden">Footer</h2>
-        
-        <div class="socials">
-            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="insagram icon"></a>
-            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook icon"></a>
-            <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="linkedin icon"></a>
-            <a href="https://www.snapchat.com/"><img src="images/snapchat.png" alt="snapchat icon"></a>
-            <a href="https://www.twitter.com/"><img src="images/twitter.png" alt="twitter icon"></a>
-        </div>
-    </footer><!-- footer close -->
+         <!--Footer Start-->
+         <footer class="footer-area">
+            <div class="container">
+                <div class="">
+                    <div class="site-logo text-center py-4">
+                        <a href="#"><img src="./img/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="social text-center">
+                        <h5 class="text-uppercase">Follow me</h5>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="copyrights text-center">
+                        <p class="para">
+                            Copyright ©2019 All rights reserved | This template is made with by
+                            <a href="#"><span style="color: var(--primary-color);">Daily Tuition</span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Foote close-->
 
-<script src="js/main.js"></script>    
+<!-- Jquery js file-->
+<script SRC="js/jquery.3.4.1.js"></script>
+<!-- Bootstrap js file-->
+<script src="js/bootstrap.min.js"></script>    
 </body>
 </html>
