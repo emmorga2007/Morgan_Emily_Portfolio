@@ -155,7 +155,9 @@
 
 
 /* Footer Close */
-
+.footer img{
+	height: 5rem;
+}
 
 /*Trevors code below for example*/
 /*body{background-color:#333;color:#fff;
